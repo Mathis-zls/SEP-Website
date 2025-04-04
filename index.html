@@ -1,15 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Quintessenz - Softwareentwicklung</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Team</h1>
-    <p>This is a basic starting point.</p>
-    <button onclick="showMessage()">Click Me</button>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Quintessenz</h1>
+                </div>
+                <button class="mobile-menu-btn">☰</button>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in-up">
+                <h2>Wir destillieren digitale Lösungen zur Perfektion</h2>
+                <p>Quintessenz ist ein Team leidenschaftlicher Softwareentwickler, die Ihre Ideen in elegante und effektive digitale Produkte umwandeln.</p>
+                <a href="#contact" class="btn">Kontaktieren Sie uns</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Über uns</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="/api/placeholder/600/400" alt="Hier kommt unser bild">
+                </div>
+                <div class="about-text">
+                    <h3>Die Quintessenz unserer Arbeit</h3>
+                    <p>Wir entwickeln Software, die funktioniert – klar strukturiert, benutzerfreundlich und durchdacht im Design. Unser Anspruch ist es, digitale Lösungen zu schaffen, die wirklich gebraucht werden.</p>
+
+                    <p>Unser Team bringt Erfahrung aus Frontend, Backend und UI/UX mit. Wir schauen nicht nur auf den Code, sondern auch auf das große Ganze.</p>
+                    
+                    <p>Komplexe Anforderungen packen wir strukturiert an: Wir analysieren, was wirklich wichtig ist – und entwickeln daraus Lösungen, die technisch und konzeptionell Sinn machen.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Unser Team</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-member-content">
+                        <h3>Emre Aydemir</h3>
+                        <p class="role">Entwickler</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolore</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-member-content">
+                        <h3>Emirhan Soyyigit</h3>
+                        <p class="role">Entwickler</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolore</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-member-content">
+                        <h3>Oliver Merk</h3>
+                        <p class="role">Entwickler</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolore</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-member-content">
+                        <h3>Mathis Zizlsperger</h3>
+                        <p class="role">Entwickler</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
